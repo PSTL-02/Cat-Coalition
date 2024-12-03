@@ -50,7 +50,9 @@ const Home = () => {
           Where Compassion Meets Management: The Humane Solution for
           Auckland's Community Cats
         </p>
-        <button>VOLUNTEER</button>
+        <a href="#/Contact">
+            <button>VOLUNTEER</button>
+        </a>
       </div>
 
       <div className="container">
