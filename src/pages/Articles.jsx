@@ -16,7 +16,6 @@ const Articles = () => {
     const fetchArticles = async () => {
       try {
         const response = await axios.get(endpoint);
-        console.log(response);
         setArticles(response.data);
         setLoading(false);
       } catch (error) {

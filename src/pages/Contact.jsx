@@ -63,7 +63,7 @@ const Contact = () => {
         url={window.location.href}
       />
 
-      <PageHeader title="VOLUNTEER / CONTACT US " image_url="/public/Header/Contact-header.png"/>
+      <PageHeader title="VOLUNTEER / CONTACT US " image_url="/Header/Contact-header.png"/>
 
       <div className="VolunteerContact">
         {/* Volunteer Section */}

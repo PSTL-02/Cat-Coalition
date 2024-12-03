@@ -16,7 +16,6 @@ const Home = () => {
     const fetchHomePost = async () => {
       try {
         const response = await axios.get(endpoint);
-        // console.log("API Response:", response.data); // Log the response for debugging
         setHome(response.data);
         setLoading(false);
       } catch (err) {
@@ -62,7 +61,6 @@ const Home = () => {
         ) : (
           <div >
             {home.map((homePost, index) => {
-              // console.log("Processing post:", homePost); 
               const title = homePost?.title?.rendered || "No Title";
               const excerpt =
                 homePost?.excerpt?.rendered || "No Excerpt Available";
